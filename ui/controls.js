@@ -1320,9 +1320,9 @@ shaka.ui.Controls = class extends shaka.util.FakeEventTarget {
         break;
       // Pause or play by pressing space on the seek bar.
       case ' ':
-        if (isSeekBar) {
-          this.onPlayPauseClick_();
-        }
+        // if (isSeekBar) {
+        this.onPlayPauseClick_();
+        // }
         break;
     }
   }
